@@ -71,6 +71,7 @@ extension _InputDecorationExtension on InputDecoration {
     required String? errorText,
     // TODO(Ahmed): Add this when it's supported by the min version of the package [Flutter>=3.22.0].
     required String? helperText,
+    TextStyle? errorStyle,
   }) {
     return InputDecoration(
       icon: icon,
