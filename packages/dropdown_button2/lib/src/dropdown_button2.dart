@@ -1023,6 +1023,7 @@ class DropdownButtonFormField2<T> extends FormField<T> {
                           field.errorText ?? effectiveDecoration.errorText,
                       //helper: effectiveDecoration.helper,
                       helperText: effectiveDecoration.helperText,
+                      errorStyle: effectiveDecoration.errorStyle,
                     ),
                     child: DropdownButtonHideUnderline(
                       child: DropdownButton2<T>._formField(
